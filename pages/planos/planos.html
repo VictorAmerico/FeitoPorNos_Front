@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/style/main.css">
+    <link rel="stylesheet" href="/assets/style/planos.css">
     <link rel="stylesheet" href="/assets/style/navbar.css">
     <link rel="shortcut icon" type="image/png" href="/assets/img/feitopornos-branco.png">
-
-    <title>Feito Por Nós - e-commerce</title>
+    <title>Tipos de Planos</title>
 </head>
-<body onload="verifyConnection()">
-      <nav class="navbar">
+<body>
+    <nav class="navbar">
         <div class="navbar_logo">
-            <img src="/assets/img/feitopornos-preto.png" alt=""> 
+            <a href="/pages/main.html">
+                <img src="/assets/img/feitopornos-preto.png" alt=""> 
+            </a>
         </div>
 
         <div class="navbar_search">
@@ -32,7 +33,7 @@
                     <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
                     <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
                   </svg>
-                <span id="logintransform">Login</span>
+                login
                 </a>
             </li>
             <li class="navbar__item none"><a href="/pages/cadastro/cadastroProdutos.html" class="navbar__link navbar__link--active">
@@ -70,107 +71,32 @@
             </li>
         </div>
       </nav>
-    <section class="product-slider ">
-      <div class="slider slider-bg">
-        <div class="slide">
-          <div class="product-image">
-            <a href="">
-              <img src="/assets/img/product-image-1.png" alt="Product 1">
-            </a>
-            <div class="product-discount">50% off</div>
-          </div>
-          <div class="product-image-division">
-              <img src="/assets/img/product_division.png">
-          </div>
-          <div class="product-details">
-              <h1 class="product-name">Produto 1</h1>
-              <p class="original-price">Preço original: R$40,00</p>
-              <p class="discount-price">Preço do desconto: R$20,00</p>
-            </div>
+    <div class="tiposPlanos">
+        <div class="planoPrata">
+            <h2>FREE</h2>
+            <h4>Sem Anúncio</h4>
+            <h4>Limite 2 Produtos</h4>
+            <button>Clique aqui</button>
         </div>
-        <div class="slide">
-          <div class="product-image">
-            <a href="">
-              <img src="/assets/img/product-image-2.png" alt="Product 2">
-            </a>
-            <div class="product-discount">50% off</div>
-          </div>
-          <div class="product-image-division">
-              <img src="/assets/img/product_division.png">
-          </div>
-          <div class="product-details">
-              <h1 class="product-name">Produto 2</h1>
-              <p class="original-price">Preço original: R$40,00</p>
-              <p class="discount-price">Preço do desconto: R$20,00</p>
-            </div>
+        <div class="planoOuro">
+            <h2>Plano <span>Ouro</span></h2>
+            <h4>2 Anúncios</h4>
+            <h4>Limite 5 Produtos</h4>
+            <button>Faça um upgrade</button>
         </div>
-        <div class="slide">
-          <div class="product-image">
-            <a href="">
-              <img src="/assets/img/product-image-3.png" alt="Product 3">
-            </a>
-            <div class="product-discount">50% off</div>
-          </div>
-          <div class="product-image-division">
-              <img src="/assets/img/product_division.png">
-          </div>
-          <div class="product-details">
-              <h1 class="product-name">Produto 3</h1>
-              <p class="original-price">Preço original: R$40,00</p>
-              <p class="discount-price">Preço do desconto: R$20,00</p>
-            </div>
+        <div class="planoPlatina">
+            <h2>Plano <span>Platina</span></h2>
+            <h4>4 Anúncios</h4>
+            <h4>Limite 7 Produtos</h4>
+            <button>Faça um upgrade</button>
         </div>
-        <div class="slide">
-          <div class="product-image">
-            <a href="">
-              <img src="/assets/img/product-image-4.png" alt="Product 4">
-            </a>
-            <div class="product-discount">50% off</div>
-          </div>
-          <div class="product-image-division">
-              <img src="/assets/img/product_division.png">
-          </div>
-          <div class="product-details">
-              <h1 class="product-name">Produto 4</h1>
-              <p class="original-price">Preço original: R$40,00</p>
-              <p class="discount-price">Preço do desconto: R$20,00</p>
-            </div>
+        <div class="planoDiamante">
+            <h2>Plano <span>Diamante</span></h2>
+            <h4>6 Anúncios</h4>
+            <h4>Limite de 10 Produtos</h4>
+            <button>Faça um upgrade</button>
         </div>
-      </div>
-    </section>
-    <div class="dest">
-      <h2>Categorias Em Destaque</h2>
+        
     </div>
-    <section class="CategoriasEmDestaque">
-      <div class="destaque">
-        <a href="/pages/categorias/decoracoesArtesanais.html">
-            <img src="/assets/img/decoracoesArtesanais.png" alt="">
-            <p>Decorações Artesanais</p>
-        </a>
-      </div>
-      <div class="destaque">
-        <a href="/pages/categorias/acessoriosArtesanais.html">
-            <img src="/assets/img/acessoriosArtesanais.png" alt="">
-            <p>Acessórios Artesanais</p>
-        </a>
-      </div>
-      <div class="destaque">
-        <a href="/pages/categorias/roupasCotijuba.html">
-            <img src="/assets/img/roupasDaIlha.png" alt="">
-            <p>Roupas de Cotijuba</p>
-        </a>
-      </div>
-      <div class="destaque">
-        <a href="/pages/categorias/cosmeticosCotijuba.html">
-            <img src="/assets/img/cosmeticosDaIlha.png" alt="">
-            <p>Cosméticos de Cotijuba</p>
-        </a>
-      </div>
-    </section>
-
-      
-      
 </body>
-<script src="/js/slide.js"></script>
-<script src="/js/connection.js"></script>
 </html>
